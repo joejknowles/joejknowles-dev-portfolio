@@ -1,11 +1,19 @@
 ---
 import { Home } from "../components/Home.tsx";
 import Layout from "../layouts/Layout.astro";
-
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Home />
+    <nav class="bg-gray-800 text-white p-4">
+        <ul class="flex justify-center space-x-4">
+            <li><a href="/" class="hover:text-gray-400">Home</a></li>
+            <li><a href="/about/" class="hover:text-gray-400">About</a></li>
+            <li><a href="/portfolio" class="hover:text-gray-400">Portfolio</a></li>
+            <li><a href="/cv/" class="hover:text-gray-400">CV</a></li>
+            <li><a href="/contact/" class="hover:text-gray-400">Contact</a></li>
+        </ul>
+    </nav>
+    <Home />
 </Layout>
