@@ -1,13 +1,53 @@
 interface ProjectProps {
-    title: string;
     children: React.ReactNode;
 }
 
-export const Project = ({ title, children }: ProjectProps) => {
+export const Project = ({ children }: ProjectProps) => {
     return (
         <div className="p-4 border rounded shadow">
-            <h3 className="text-2xl font-semibold">{title}</h3>
-            <div className="mt-2">{children}</div>
+            <div className="mt-2 flex">
+                {children}
+            </div>
         </div>
     );
 };
+
+Project.MainSection = ({ children }: { children: React.ReactNode }) => {
+    return (
+        <section className="flex-grow">{children}</section>
+    );
+}
+
+Project.ImageSection = ({ src, alt }: { src: string, alt: string }) => {
+    return (
+        <div className="w-1/3">
+            <img src={src} alt={alt} className="w-full" />
+        </div>
+    );
+}
+
+Project.VideoSection = ({ src, alt }: { src: string, alt: string }) => {
+    return (
+        <div className="w-1/3">
+            <video src={src} alt={alt} className="w-full" autoPlay muted loop />
+        </div>
+    );
+}
+
+Project.Title = ({ children }: { children: React.ReactNode }) => {
+    return (
+        <h3 className="text-2xl font-semibold">{children}</h3>
+    );
+}
+
+Project.DescriptionParagraph = ({ children }: { children: React.ReactNode }) => {
+    return (
+        <p className="mt-2">{children}</p>
+    );
+}
+
+Project.ToolsList = ({ tools }: { tools: string[] }) => {
+    return (
+        <p className="mt-2">Built with {tools.join(", ")}</p>
+    );
+}
