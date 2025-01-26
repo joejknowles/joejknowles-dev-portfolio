@@ -3,15 +3,17 @@ import { PassTime } from "./projects/PassTime";
 export const Home = () => {
     return (
         <div className="py-10 max-w-4xl mx-auto px-10">
-            <h1 className="text-center text-4xl font-bold mb-6">Joe Knowles</h1>
-            <p className="mt-2">
-                Senior Full-stack React Developer, based in Leeds (UK).
-                9 years of experience, played a critical role building the main applications
+            <h1 className="text-center text-4xl font-bold mb-2">Joe Knowles</h1>
+            <p className="text-center text-gray-500">
+                Full-stack React expert, based in Leeds (UK)
+            </p>
+            <p className="mt-4">
+                With over 9 years of experience, I've played a critical role building the main applications
                 at 3 very early stage startups, taking them from Seed to Series A and beyond.
             </p>
 
             <p className="mt-2">
-                I've worked with React for 8 years, and mostly Node and Rails on the server.
+                I've worked with React for 8 years, and mostly Node (5 years) and Rails (3 years) on the server.
             </p>
 
             <section className="my-10 space-y-5">
