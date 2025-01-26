@@ -58,6 +58,6 @@ Project.DescriptionParagraph = ({
 
 Project.ToolsList = ({ tools }: { tools: string[] }) => {
     return (
-        <p className="mt-2">Built with {tools.join(", ")}</p>
+        <p className="mt-1 text-gray-500 italic">Built with {tools.join(", ")}</p>
     );
 }

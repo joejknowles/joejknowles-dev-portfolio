@@ -3,7 +3,7 @@ import { PassTime } from "./projects/PassTime";
 export const Home = () => {
     return (
         <div className="py-10 max-w-4xl mx-auto px-10">
-            <h1 className="text-center text-4xl font-bold mb-6">Joe J Knowles</h1>
+            <h1 className="text-center text-4xl font-bold mb-6">Joe Knowles</h1>
             <p className="mt-2">
                 Senior Full-stack React Developer, based in Leeds (UK).
                 9 years of experience, played a critical role building the main applications
@@ -11,7 +11,7 @@ export const Home = () => {
             </p>
 
             <p className="mt-2">
-                On the frontend, I've worked with React for 8 years, and mostly used Node and Rails on the server side.
+                I've worked with React for 8 years, and mostly Node and Rails on the server.
             </p>
 
             <section className="my-10 space-y-5">
@@ -23,7 +23,7 @@ export const Home = () => {
                     </a>
                 </div>
             </section>
-            <section className="mb-10">
+            <section className="mb-10 space-y-5">
                 <h2 className="text-3xl font-bold">Latest Experience</h2>
                 <div className="mt-4 p-4 border rounded shadow">
                     <h3 className="text-2xl font-semibold">
@@ -38,6 +38,8 @@ export const Home = () => {
                         Work includes building an AI data report generator powered by ChatGPT and a billing system
                         that handles over $3M in ARR.
                     </p>
+                </div>
+                <div>
                     <a href="/cv" className="text-blue-500 hover:underline">View full CV</a>
                 </div>
             </section>

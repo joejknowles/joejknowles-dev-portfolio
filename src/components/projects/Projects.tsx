@@ -11,7 +11,16 @@ export const Projects = () => {
                 <Project.MainSection>
                     <Project.Title>YSP Explore</Project.Title>
                     <Project.ToolsList tools={[
-                        "React", "Ionic", "threeJS", "react-three-fiber", "Capacitor", "Android Studio"
+                        "React",
+                        "Ionic",
+                        "threeJS",
+                        "react-three-fiber",
+                        "Capacitor",
+                        "Android Studio",
+                        "Firestore",
+                        "Cypress",
+                        "Firebase Auth",
+                        "Firebase Hosting"
                     ]} />
                     <Project.DescriptionParagraph>
                         A 3D Pokémon Go like user interface, but as a tour guide for the Yorkshire Sculpture Park.
@@ -21,7 +30,7 @@ export const Projects = () => {
                         It also tracks which sculptures the user has visited,
                         and at the end of the day shows a summary of what they've seen that day.
                     </Project.DescriptionParagraph>
-                    <div className="mt-5" />
+                    <br />
                     <Project.DescriptionParagraph style={{ marginTop: "auto" }}>
                         Preview on web: <a
                             href="https://yspexplore.com"
@@ -37,10 +46,11 @@ export const Projects = () => {
             <Project>
                 <Project.MainSection>
                     <Project.Title>sayitright.academy</Project.Title>
-                    <Project.ToolsList tools={["React", "Styled components"]} />
+                    <Project.ToolsList tools={["React", "Ruby on Rails", "PostgresQL", "Styled components", "Firebase Auth"]} />
                     <Project.DescriptionParagraph>
                         A fully customisable language learning app that uses AI to generate lessons based on a user provided subject.
                     </Project.DescriptionParagraph>
+                    <br />
                     <Project.DescriptionParagraph style={{ marginTop: "auto" }}>
                         Try at: <a
                             href="https://sayitright.academy"
@@ -59,11 +69,12 @@ export const Projects = () => {
                 {/* more screenshots here: https://photos.google.com/album/AF1QipOMt4LJXV8mjhFB0jyrw4QxSBO8ZHEWmrCn-2Gg */}
                 <Project.MainSection>
                     <Project.Title>Speed Painter</Project.Title>
-                    <Project.ToolsList tools={["React Native", "Styled Components"]} />
+                    <Project.ToolsList tools={["React Native", "Expo", "Styled Components"]} />
                     <Project.DescriptionParagraph>
                         A simple but addictive mobile game. Make the longest chain of paint splats,
                         that would mix to make the right the colour in the prompt.
                     </Project.DescriptionParagraph>
+                    <br />
                     <Project.DescriptionParagraph style={{ marginTop: "auto" }}>
                         Try on android: <a
                             href="https://play.google.com/store/apps/details?id=com.joejknowles.speedpainter"
@@ -79,10 +90,14 @@ export const Projects = () => {
             <Project>
                 <Project.MainSection>
                     <Project.Title>Anventory</Project.Title>
-                    <Project.ToolsList tools={["React", "Styled Components", "Downshift"]} />
+                    <Project.ToolsList tools={["React", "Styled Components", "Downshift", "Firebase Auth", "Firestore"]} />
                     <Project.DescriptionParagraph>
                         A beautifully designed, bespoke shopping list app.
                     </Project.DescriptionParagraph>
+                    <Project.DescriptionParagraph>
+                        Instantly syncs between devices and users in the same home.
+                    </Project.DescriptionParagraph>
+                    <br />
                     <Project.DescriptionParagraph style={{ marginTop: "auto" }}>
                         Try at: <a
                             href="https://anventory.com"
@@ -92,10 +107,10 @@ export const Projects = () => {
                         >
                             anventory.com
                         </a><br />
-                        
-                        <span className="text-gray-500">(sign up currently disabled. Contact me at <a href="mailto:joejknowles@gmail.com">
+
+                        <div className="text-gray-400 text-sm max-w-xs">(sign up currently disabled. Contact me at <a href="mailto:joejknowles@gmail.com">
                             joejknowles@gmail.com
-                        </a> to join the waitlist)</span>
+                        </a> to join the waitlist)</div>
                     </Project.DescriptionParagraph>
                 </Project.MainSection >
                 <Project.VideoSection src="/anventory-low.mp4" />
@@ -103,10 +118,11 @@ export const Projects = () => {
             <Project>
                 <Project.MainSection>
                     <Project.Title>joejknowles.com</Project.Title>
-                    <Project.ToolsList tools={["React", "Tailwind CSS"]} />
+                    <Project.ToolsList tools={["React", "Tailwind CSS", "Astro"]} />
                     <Project.DescriptionParagraph>
                         This personal website, built with React and Tailwind CSS.
                     </Project.DescriptionParagraph>
+                    <br />
                     <Project.DescriptionParagraph style={{ marginTop: "auto" }}>
                         Codebase: <a
                             href="https://github.com/joejknowles/joejknowles-dev-portfolio"
