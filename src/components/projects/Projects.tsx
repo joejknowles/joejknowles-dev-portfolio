@@ -11,7 +11,8 @@ export const Projects = () => {
                     <Project.Title>Speed Painter</Project.Title>
                     <Project.ToolsList tools={["React Native", "Styled Components"]} />
                     <Project.DescriptionParagraph>
-                        A mobile game. Mix the colours to create the longest chain.
+                        A simple but addictive mobile game. Make the longest chain of paint splats,
+                        that would mix to make the right the colour in the prompt.
                     </Project.DescriptionParagraph>
                 </Project.MainSection>
             </Project>

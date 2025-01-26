@@ -2,8 +2,8 @@ import { PassTime } from "./projects/PassTime";
 
 export const Home = () => {
     return (
-        <div className="py-10 text-center max-w-4xl mx-auto px-10">
-            <h1 className="text-4xl font-bold mb-6">Joe J Knowles</h1>
+        <div className="py-10 max-w-4xl mx-auto px-10">
+            <h1 className="text-center text-4xl font-bold mb-6">Joe J Knowles</h1>
             <p className="mt-2">
                 Senior Full-stack React Developer, based in Leeds (UK).
                 9 years of experience, played a critical role building the main applications
@@ -40,7 +40,7 @@ export const Home = () => {
                 </div>
             </section>
             <footer className="mt-10">
-                <h2 className="text-3xl font-bold">Contact Me</h2>
+                <h2 className="text-3xl font-bold">Contact</h2>
                 <p className="mt-4">joejknowles@gmail.com</p>
                 <p>07513020341</p>
             </footer>
