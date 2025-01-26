@@ -4,7 +4,7 @@ interface ProjectProps {
 
 export const Project = ({ children }: ProjectProps) => {
     return (
-        <div className="p-4 border rounded shadow flex gap-4 text-left">
+        <div className="p-4 border rounded shadow flex gap-4 text-left items-start">
             {children}
         </div>
     );
@@ -12,14 +12,14 @@ export const Project = ({ children }: ProjectProps) => {
 
 Project.MainSection = ({ children }: { children: React.ReactNode }) => {
     return (
-        <section className="flex-grow flex flex-col">{children}</section>
+        <section className="flex-grow flex flex-col self-stretch">{children}</section>
     );
 }
 
 Project.ImageSection = ({ src, alt }: { src: string, alt: string }) => {
     return (
         <div
-            className="w-[400px] border rounded shadow shrink-0"
+            className="w-[400px] border rounded shadow shrink-0 overflow-hidden"
             style={{ maxWidth: "40%" }}
         >
             <img src={src} alt={alt} className="w-full" />
@@ -30,7 +30,7 @@ Project.ImageSection = ({ src, alt }: { src: string, alt: string }) => {
 Project.VideoSection = ({ src }: { src: string }) => {
     return (
         <div
-            className="w-[400px] border rounded shadow shrink-0"
+            className="w-[400px] border rounded shadow shrink-0 overflow-hidden"
             style={{ maxWidth: "40%" }}
         >
             <video src={src} className="w-full" autoPlay muted loop />
