@@ -1,6 +1,8 @@
+import { PassTime } from "./projects/PassTime";
+
 export const Home = () => {
     return (
-        <div className="py-10 text-center">
+        <div className="py-10 text-center max-w-4xl mx-auto px-10">
             <h1 className="text-4xl font-bold mb-6">Joe J Knowles</h1>
             <p className="mt-2">
                 Senior Full-stack React Developer, based in Leeds (UK).
@@ -12,17 +14,11 @@ export const Home = () => {
                 On the frontend, I've worked with React for 8 years, and mostly used Node and Rails on the server side.
             </p>
 
-            <section className="my-10">
+            <section className="my-10 space-y-5">
                 <h2 className="text-3xl font-bold">Personal Web Projects</h2>
-                <div className="mt-4 p-4 border rounded shadow">
-                    <h3 className="text-2xl font-semibold">PassTime</h3>
-                    <p className="mt-2">
-                        A time management app, based on recent research on productivity.
-                    </p>
-                    <p className="mt-2">Built with React, NextJS, TypeScript, Material-ui, Prisma, GraphQL, Apollo</p>
-                    <div className="mt-4">
-                        <a href="/portfolio" className="text-blue-500 hover:underline">View 7 other projects</a>
-                    </div>
+                <PassTime />
+                <div>
+                    <a href="/portfolio" className="text-blue-500 hover:underline">View 7 other projects</a>
                 </div>
             </section>
             <section className="mb-10">
