@@ -12,14 +12,14 @@ export const Project = ({ children }: ProjectProps) => {
 
 Project.MainSection = ({ children }: { children: React.ReactNode }) => {
     return (
-        <section className="flex-grow">{children}</section>
+        <section className="flex-grow flex flex-col">{children}</section>
     );
 }
 
 Project.ImageSection = ({ src, alt }: { src: string, alt: string }) => {
     return (
         <div
-            className="w-[300px] max-w-1/3 border rounded shadow shrink-0"
+            className="w-[400px] border rounded shadow shrink-0"
             style={{ maxWidth: "40%" }}
         >
             <img src={src} alt={alt} className="w-full" />
@@ -44,9 +44,15 @@ Project.Title = ({ children }: { children: React.ReactNode }) => {
     );
 }
 
-Project.DescriptionParagraph = ({ children }: { children: React.ReactNode }) => {
+Project.DescriptionParagraph = ({
+    children,
+    ...rest
+}: {
+    children: React.ReactNode,
+    style?: React.CSSProperties
+}) => {
     return (
-        <p className="mt-2">{children}</p>
+        <p className="mt-2" {...rest}>{children}</p>
     );
 }
 

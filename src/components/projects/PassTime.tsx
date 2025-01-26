@@ -12,6 +12,26 @@ export const PassTime = () => {
                     much more likely to actually do it, than if you just add it to a 'to-do'
                     list and forget about it.
                 </Project.DescriptionParagraph>
+                <Project.DescriptionParagraph style={{ marginTop: "auto" }}>
+                    Try at: <a
+                        href="https://passti.me"
+                        className="text-blue-500 hover:underline"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        passti.me
+                    </a>
+                </Project.DescriptionParagraph>
+                <Project.DescriptionParagraph>
+                    Codebase: <a
+                        href="https://github.com/joejknowles/pass-time"
+                        className="text-blue-500 hover:underline"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        GitHub
+                    </a>
+                </Project.DescriptionParagraph>
             </Project.MainSection>
             <Project.VideoSection src="/passtime-low.mp4" />
         </Project>

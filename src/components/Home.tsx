@@ -18,7 +18,9 @@ export const Home = () => {
                 <h2 className="text-3xl font-bold">Personal Web Projects</h2>
                 <PassTime />
                 <div>
-                    <a href="/portfolio" className="text-blue-500 hover:underline">View 7 other projects</a>
+                    <a href="/portfolio" className="text-blue-500 hover:underline">
+                        See 5 other projects
+                    </a>
                 </div>
             </section>
             <section className="mb-10">
