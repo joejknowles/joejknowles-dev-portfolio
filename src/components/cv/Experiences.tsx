@@ -8,7 +8,7 @@ export const Experiences = () => {
             <Experience>
                 <Experience.MainSection>
                     <Experience.HeadingSection>
-                        <Experience.Title>Zen Educate</Experience.Title>
+                        <Experience.Title href="https://www.zeneducate.com/resources/zen/why-we-started-zen-educate">Zen Educate</Experience.Title>
                         <Experience.Location>UK REMOTE</Experience.Location>
                         <Experience.Date>(August 2020 - April 2022)</Experience.Date>
                         <Experience.JobTitle>Senior Full-stack Developer</Experience.JobTitle>
@@ -37,7 +37,7 @@ export const Experiences = () => {
             <Experience>
                 <Experience.MainSection>
                     <Experience.HeadingSection>
-                        <Experience.Title>WealthKernel</Experience.Title>
+                        <Experience.Title href="https://www.wealthkernel.com">WealthKernel</Experience.Title>
                         <Experience.Location>UK REMOTE</Experience.Location>
                         <Experience.Date>(April 2017 - July 2020)</Experience.Date>
                         <Experience.JobTitle>Senior Full-stack Developer</Experience.JobTitle>
@@ -60,7 +60,7 @@ export const Experiences = () => {
             <Experience>
                 <Experience.MainSection>
                     <Experience.HeadingSection>
-                        <Experience.Title>FNZ</Experience.Title>
+                        <Experience.Title href="https://www.fnz.com/our-purpose">FNZ</Experience.Title>
                         <Experience.Location>Brno, The Czech Republic</Experience.Location>
                         <Experience.Date>(August 2015 - December 2016)</Experience.Date>
                         <Experience.JobTitle>Full-stack Developer</Experience.JobTitle>

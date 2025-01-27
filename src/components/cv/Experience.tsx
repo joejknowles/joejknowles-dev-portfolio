@@ -38,9 +38,16 @@ Experience.VideoSection = ({ src }: { src: string }) => {
     );
 }
 
-Experience.Title = ({ children }: { children: React.ReactNode }) => {
+Experience.Title = ({ children, href }: { children: React.ReactNode, href?: string }) => {
     return (
-        <h3 className="text-xl font-semibold inline mr-2">{children}</h3>
+        <a
+            href={href}
+            className="text-xl text-blue-700 font-semibold mr-2 hover:text-blue-500"
+            target="_blank"
+            rel="noreferrer"
+        >
+            {children}
+        </a>
     );
 }
 

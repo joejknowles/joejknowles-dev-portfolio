@@ -5,7 +5,7 @@ export const PolarExperience = () => {
         <Experience>
             <Experience.MainSection>
                 <Experience.HeadingSection>
-                    <Experience.Title>Polar Analytics</Experience.Title>
+                    <Experience.Title href="https://www.polaranalytics.com">Polar Analytics</Experience.Title>
                     <Experience.Location>UK REMOTE</Experience.Location>
                     <Experience.Date>(April 2022 - September 2024)</Experience.Date>
                     <Experience.JobTitle>Senior Full-stack Developer</Experience.JobTitle>
