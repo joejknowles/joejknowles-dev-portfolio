@@ -1,3 +1,4 @@
+import { PolarExperience } from "./cv/PolarExperience";
 import { PassTime } from "./projects/PassTime";
 
 export const Home = () => {
@@ -27,20 +28,7 @@ export const Home = () => {
             </section>
             <section className="mb-10 space-y-5">
                 <h2 className="text-3xl font-bold">Latest Experience</h2>
-                <div className="mt-4 p-4 border rounded shadow">
-                    <h3 className="text-2xl font-semibold">
-                        Polar Analytics – Senior Full-stack Developer
-                    </h3>
-                    <p className="mt-2">UK Remote (April 2022 - September 2024)</p>
-                    <p className="mt-2">
-                        After joining as the second full-stack engineer, I've built much of the user facing application,
-                        taking us from seed stage through two rounds of series A funding totalling $24 million raised.
-                    </p>
-                    <p className="mt-2">
-                        Work includes building an AI data report generator powered by ChatGPT and a billing system
-                        that handles over $3M in ARR.
-                    </p>
-                </div>
+                <PolarExperience />
                 <div>
                     <a href="/cv" className="text-blue-500 hover:underline">View full CV</a>
                 </div>
