@@ -27,3 +27,20 @@ const currentPath = Astro.url.pathname;
 		height: 100%;
 	}
 </style>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PBCKZ5MYHS"
+></script>
+<script>
+	// @ts-ignore
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		// @ts-ignore
+		dataLayer.push(arguments);
+	}
+	// @ts-ignore
+	gtag("js", new Date());
+
+	// @ts-ignore
+	gtag("config", "G-PBCKZ5MYHS");
+</script>
