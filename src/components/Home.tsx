@@ -8,8 +8,8 @@ export const Home = () => {
                 Full-stack React expert, based in Leeds (UK)
             </p>
             <p className="mt-4">
-                With over 9 years of experience, I've played a critical role building the main applications
-                at 3 very early stage startups, taking them from Seed to Series A and beyond.
+                With over 9 years of experience, I've built applications that took
+                3 very early stage startups from Seed to Series A and beyond.
             </p>
 
             <p className="mt-2">
