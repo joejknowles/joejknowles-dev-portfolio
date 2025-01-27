@@ -40,7 +40,7 @@ Experience.VideoSection = ({ src }: { src: string }) => {
 
 Experience.Title = ({ children }: { children: React.ReactNode }) => {
     return (
-        <h3 className="font-semibold inline mr-2">{children}</h3>
+        <h3 className="text-xl font-semibold inline mr-2">{children}</h3>
     );
 }
 
@@ -72,7 +72,7 @@ Experience.HeadingSection = ({ children }: { children: React.ReactNode }) => {
 
 Experience.Location = ({ children }: { children: React.ReactNode }) => {
     return (
-        <span className="text-gray-500 font-semibold mr-2">{children}</span>
+        <span className="text-gray-500 font-semibold mr-2">– {children}</span>
     );
 }
 
