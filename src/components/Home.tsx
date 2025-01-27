@@ -1,5 +1,6 @@
 import { PolarExperience } from "./cv/PolarExperience";
 import { PassTime } from "./projects/PassTime";
+import { ContactInfo } from "./ContactInfo";
 
 export const Home = () => {
     return (
@@ -34,13 +35,7 @@ export const Home = () => {
                 </div>
             </section>
             <footer className="mt-10">
-                <h2 className="text-3xl font-bold">Contact</h2>
-                <p className="mt-4">
-                    <a href="mailto:joejknowles@gmail.com" className="text-blue-500 hover:underline">joejknowles@gmail.com</a>
-                </p>
-                <p>
-                    <a href="tel:+447513020341" className="text-blue-500 hover:underline">(+44) 7513 020 341</a>
-                </p>
+                <ContactInfo />
             </footer>
         </div>
     );
