@@ -7,11 +7,30 @@ const currentPath = Astro.url.pathname;
 <!doctype html>
 <html lang="en">
 	<head>
+		<title>Joe Knowles</title>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Joe Knowles</title>
+
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-PBCKZ5MYHS"
+		></script>
+		<script>
+			// @ts-ignore
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				// @ts-ignore
+				dataLayer.push(arguments);
+			}
+			// @ts-ignore
+			gtag("js", new Date());
+
+			// @ts-ignore
+			gtag("config", "G-PBCKZ5MYHS");
+		</script>
 	</head>
 	<body>
 		<AppBar currentPath={currentPath} />
@@ -27,20 +46,3 @@ const currentPath = Astro.url.pathname;
 		height: 100%;
 	}
 </style>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PBCKZ5MYHS"
-></script>
-<script>
-	// @ts-ignore
-	window.dataLayer = window.dataLayer || [];
-	function gtag() {
-		// @ts-ignore
-		dataLayer.push(arguments);
-	}
-	// @ts-ignore
-	gtag("js", new Date());
-
-	// @ts-ignore
-	gtag("config", "G-PBCKZ5MYHS");
-</script>
