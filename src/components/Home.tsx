@@ -35,8 +35,12 @@ export const Home = () => {
             </section>
             <footer className="mt-10">
                 <h2 className="text-3xl font-bold">Contact</h2>
-                <p className="mt-4">joejknowles@gmail.com</p>
-                <p>07513020341</p>
+                <p className="mt-4">
+                    <a href="mailto:joejknowles@gmail.com" className="text-blue-500 hover:underline">joejknowles@gmail.com</a>
+                </p>
+                <p>
+                    <a href="tel:+447513020341" className="text-blue-500 hover:underline">(+44) 7513 020 341</a>
+                </p>
             </footer>
         </div>
     );
