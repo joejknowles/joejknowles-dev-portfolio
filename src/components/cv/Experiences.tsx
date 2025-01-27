@@ -15,9 +15,13 @@ export const Experiences = () => {
                     </Experience.HeadingSection>
                     <Experience.ToolsList tools={[
                         "React",
+                        "Ruby on Rails",
+                        "Styled Components",
                         "redux",
                         "React Native",
-                        "Ruby on Rails"
+                        "GraphQL",
+                        "Tailwind CSS",
+                        "Design Tokens"
                     ]} />
                     <Experience.DescriptionParagraph>
                         Working as a full-stack engineer I led a complete transformation of the development process:
@@ -41,7 +45,10 @@ export const Experiences = () => {
                     <Experience.ToolsList tools={[
                         "React",
                         "redux",
-                        "dotnet"
+                        "dotnet",
+                        "Styled Components",
+                        "Design Tokens",
+                        "SASS",
                     ]} />
                     <Experience.DescriptionParagraph>
                         As the 5th employee at this startup, I led the development of our most important applications
