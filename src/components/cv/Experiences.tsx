@@ -33,8 +33,10 @@ export const Experiences = () => {
                         weakest parts of our codebase and how to improve them.
                     </Experience.DescriptionParagraph>
                 </Experience.MainSection>
+                <Experience.ImageSection src="/zen-educate-team.avif" alt="Zen Educate team photo" />
             </Experience>
             <Experience>
+                <Experience.ImageSection src="/wealthkernel-team.jpg" alt="WealthKernel team photo" />
                 <Experience.MainSection>
                     <Experience.HeadingSection>
                         <Experience.Title href="https://www.wealthkernel.com">WealthKernel</Experience.Title>
@@ -95,6 +97,7 @@ export const Experiences = () => {
                         months later.
                     </Experience.DescriptionParagraph>
                 </Experience.MainSection>
+                <Experience.ImageSection src="/fnz-team.avif" alt="FNZ team photo" />
             </Experience>
         </section>
     );

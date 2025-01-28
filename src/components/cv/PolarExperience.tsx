@@ -3,6 +3,7 @@ import { Experience } from "./Experience";
 export const PolarExperience = () => {
     return (
         <Experience>
+            <Experience.ImageSection src="/polar-team.jpg" alt="Polar Analytics team photo" />
             <Experience.MainSection>
                 <Experience.HeadingSection>
                     <Experience.Title href="https://www.polaranalytics.com">Polar Analytics</Experience.Title>

@@ -5,8 +5,11 @@ interface ExperienceProps {
 }
 
 export const Experience = ({ children }: ExperienceProps) => {
+    const childrenArray = React.Children.toArray(children);
+    const isImageSectionFirst = (childrenArray[0] as any).type === Experience.ImageSection || (childrenArray[0] as any).type === Experience.VideoSection;
     return (
-        <div className="p-4 border rounded shadow flex gap-4 text-left items-start">
+        <div className={
+            `p-0 sm:p-4 border rounded shadow flex ${isImageSectionFirst ? "flex-col" : "flex-col-reverse"} sm:flex-row sm:gap-4 text-left items-start overflow-hidden`}>
             {children}
         </div>
     );
@@ -14,16 +17,13 @@ export const Experience = ({ children }: ExperienceProps) => {
 
 Experience.MainSection = ({ children }: { children: React.ReactNode }) => {
     return (
-        <section className="flex-grow flex flex-col self-stretch">{children}</section>
+        <section className="p-4 sm:p-0 flex-grow flex flex-col self-stretch">{children}</section>
     );
 }
 
 Experience.ImageSection = ({ src, alt }: { src: string, alt: string }) => {
     return (
-        <div
-            className="w-[400px] border rounded shadow shrink-0 overflow-hidden"
-            style={{ maxWidth: "40%" }}
-        >
+        <div className="w-full sm:w-[400px] sm:border sm:rounded sm:shadow sm:shrink-0 sm:overflow-hidden sm:max-w-[40%]">
             <img src={src} alt={alt} className="w-full" />
         </div>
     );
@@ -31,10 +31,7 @@ Experience.ImageSection = ({ src, alt }: { src: string, alt: string }) => {
 
 Experience.VideoSection = ({ src }: { src: string }) => {
     return (
-        <div
-            className="w-[400px] border rounded shadow shrink-0 overflow-hidden"
-            style={{ maxWidth: "40%" }}
-        >
+        <div className="w-full sm:w-[400px] sm:border sm:rounded sm:shadow sm:shrink-0 sm:overflow-hidden sm:max-w-[40%]">
             <video src={src} className="w-full" autoPlay muted loop />
         </div>
     );
