@@ -4,7 +4,7 @@ import { ContactInfo } from "./ContactInfo";
 
 export const Home = () => {
     return (
-        <div className="py-10 max-w-4xl mx-auto px-10">
+        <div className="py-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-center text-4xl font-bold mb-2">Joe Knowles</h1>
             <p className="text-center text-gray-500">
                 Full-stack React expert, based in Leeds (UK)
@@ -18,7 +18,7 @@ export const Home = () => {
                 I've worked with React for 8 years, and mostly Node (5 years) and Rails (3 years) on the server.
             </p>
 
-            <section className="my-10 space-y-5">
+            <section className="my-7 lg:my-10 space-y-5">
                 <h2 className="text-3xl font-bold">Personal Web Projects</h2>
                 <PassTime />
                 <div>
@@ -27,7 +27,7 @@ export const Home = () => {
                     </a>
                 </div>
             </section>
-            <section className="mb-10 space-y-5">
+            <section className="mb-7 lg:mb-10 space-y-5">
                 <h2 className="text-3xl font-bold">Latest Experience</h2>
                 <PolarExperience />
                 <div>
