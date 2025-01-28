@@ -19,8 +19,7 @@ export const Projects = () => {
                         "Android Studio",
                         "Firestore",
                         "Cypress",
-                        "Firebase Auth",
-                        "Firebase Hosting"
+                        "Firebase Auth"
                     ]} />
                     <Project.DescriptionParagraph>
                         A 3D Pokémon Go like user interface, but as a tour guide for the Yorkshire Sculpture Park.
@@ -46,7 +45,7 @@ export const Projects = () => {
             <Project>
                 <Project.MainSection>
                     <Project.Title>sayitright.academy</Project.Title>
-                    <Project.ToolsList tools={["React", "Ruby on Rails", "PostgresQL", "Styled components", "Firebase Auth"]} />
+                    <Project.ToolsList tools={["React", "Ruby on Rails", "PostgresQL", "Styled components", "Firebase Auth", "Render"]} />
                     <Project.DescriptionParagraph>
                         A fully customisable language learning app that uses AI to generate lessons based on a user provided subject.
                     </Project.DescriptionParagraph>
@@ -90,7 +89,7 @@ export const Projects = () => {
             <Project>
                 <Project.MainSection>
                     <Project.Title>Anventory</Project.Title>
-                    <Project.ToolsList tools={["React", "Styled Components", "Downshift", "Firebase Auth", "Firestore"]} />
+                    <Project.ToolsList tools={["React", "Styled Components", "Downshift", "Firebase Auth", "Firestore", "Firebase Hosting"]} />
                     <Project.DescriptionParagraph>
                         A beautifully designed, bespoke shopping list app.
                     </Project.DescriptionParagraph>
@@ -116,9 +115,10 @@ export const Projects = () => {
                 <Project.VideoSection src="/anventory-low.mp4" />
             </Project >
             <Project>
+                <Project.ImageSection src="/joejknowles-site-screenshot.jpg" alt="joejknowles.com screenshot" />
                 <Project.MainSection>
                     <Project.Title>joejknowles.com</Project.Title>
-                    <Project.ToolsList tools={["React", "Tailwind CSS", "Astro"]} />
+                    <Project.ToolsList tools={["React", "Tailwind CSS", "Astro", "Render"]} />
                     <Project.DescriptionParagraph>
                         This personal website, built with React and Tailwind CSS.
                     </Project.DescriptionParagraph>
