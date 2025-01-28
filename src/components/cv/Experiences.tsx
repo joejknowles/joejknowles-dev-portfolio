@@ -55,6 +55,25 @@ export const Experiences = () => {
                         from initial planning through to shipping to customers. The success of these applications allowed
                         us to raise a £4.5m series A.
                     </Experience.DescriptionParagraph>
+                    {/* I have extensive experience with design tokens. 
+                        I first introduced these at WealthKernel in 2017, when
+                        I was leading the frontend development team there. We 
+                        built a multi-tenanted investment platform, where design
+                        tokens were *essential* in providing a unique visual 
+                        experience for each of our partner Brands, while using
+                        a single codebase, in order to launch each new investment
+                        platform in a few hours. We built a custom system for
+                        resolving token values from scratch, which could be 
+                        consumed across multiple platforms. This system was 
+                        seriously critical in securing WealthKernel's very first 
+                        customers, and was used as a sales tool to demonstrate 
+                        what their bespoke platform would look like even on 
+                        initial sales calls. WealthKernel is now an award winning
+                        fintech, and has expanded into Europe (https://www.wealthkernel.com/news)
+                        I also introduced a new design token system at Zen 
+                        Educate in collaboration with the designer there, and 
+                        used and iterated on tokens at my most recent company Polar, too.
+ */}
                 </Experience.MainSection>
             </Experience>
             <Experience>
