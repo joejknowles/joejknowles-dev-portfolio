@@ -33,7 +33,7 @@ export const Experiences = () => {
                         weakest parts of our codebase and how to improve them.
                     </Experience.DescriptionParagraph>
                 </Experience.MainSection>
-                <Experience.ImageSection src="/zen-educate-team.avif" alt="Zen Educate team photo" />
+                <Experience.ImageSection src="/zen-team.jpg" alt="Zen Educate team photo" />
             </Experience>
             <Experience>
                 <Experience.ImageSection src="/wealthkernel-team.jpg" alt="WealthKernel team photo" />
