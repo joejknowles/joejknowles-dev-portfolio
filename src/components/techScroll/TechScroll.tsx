@@ -9,7 +9,7 @@ export const TechScroll = () => {
     return (
         <div className="tech-scroll-container">
             <div className="tech-scroll" style={{
-                animationDuration: `${numberOfTechs * 0.7}s`
+                animationDuration: `${numberOfTechs * 1.5}s`
             }}>
                 {technologiesDoubled.map((tech, index) => (
                     <div key={index} className="tech-item">
