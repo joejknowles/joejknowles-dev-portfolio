@@ -28,7 +28,7 @@ export const Home = () => {
                 </div>
             </section>
             <section className="mb-7 lg:mb-10 space-y-5">
-                <h2 className="text-3xl font-bold">Latest Experience</h2>
+                <h2 className="text-3xl font-bold">Experience</h2>
                 <PolarExperience />
                 <div>
                     <a href="/cv" className="text-blue-500 hover:underline">View full CV</a>
