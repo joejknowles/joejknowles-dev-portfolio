@@ -1,7 +1,7 @@
 import { PolarExperience } from "./cv/PolarExperience";
 import { PassTime } from "./projects/PassTime";
 import { ContactInfo } from "./ContactInfo";
-import { TechScroll } from "./TechScroll";
+import { TechScroll } from "./techScroll/TechScroll";
 
 export const Home = () => {
     return (
@@ -23,7 +23,7 @@ export const Home = () => {
 
             <TechScroll />
 
-            <div className="py-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="pb-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 <section className="my-7 lg:my-10 space-y-5">
                     <h2 className="text-3xl font-bold">Personal Web Projects</h2>
                     <PassTime />

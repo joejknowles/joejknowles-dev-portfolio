@@ -1,17 +1,15 @@
-import './TechScroll.css';
-
-const technologies = [
+export const technologies = [
+    { name: "Ionic", logo: "/logos/ionic.svg" },
+    { name: "Android Studio", logo: "/logos/android.svg" },
     { name: "React", logo: "/logos/react.svg" },
     { name: "Node.js", logo: "/logos/nodejs.svg" },
     { name: "Typescript", logo: "/logos/typescript.svg" },
     { name: "GPT API", logo: "/logos/gpt.svg" },
     { name: "Prompt engineering", logo: "/logos/prompt.svg" },
-    { name: "Ionic", logo: "/logos/ionic.svg" },
     { name: "threeJS", logo: "/logos/threejs.svg" },
-    { name: "react-three-fiber", logo: "/logos/react-three-fiber.svg" },
+    { name: "react-three-fiber", logo: "/logos/threejs.svg" },
     { name: "Capacitor", logo: "/logos/capacitor.svg" },
-    { name: "Android Studio", logo: "/logos/android-studio.svg" },
-    { name: "Firestore", logo: "/logos/firestore.svg" },
+    { name: "Firestore", logo: "/logos/firestore.png" },
     { name: "Cypress", logo: "/logos/cypress.svg" },
     { name: "Firebase Auth", logo: "/logos/firebase-auth.svg" },
     { name: "Ruby on Rails", logo: "/logos/ruby-on-rails.svg" },
@@ -34,23 +32,3 @@ const technologies = [
     { name: "dotnet", logo: "/logos/dotnet.svg" },
     { name: "SASS", logo: "/logos/sass.svg" },
 ];
-
-const technologiesDoubled = [...technologies, ...technologies];
-
-const numberOfTechs = technologiesDoubled.length;
-
-export const TechScroll = () => {
-    return (
-        <div className="tech-scroll-container">
-            <div className="tech-scroll" style={{
-                animationDuration: `${numberOfTechs * 1}s`
-            }}>
-                {technologiesDoubled.map((tech, index) => (
-                    <div key={index} className="tech-item">
-                        <img src={tech.logo} alt={tech.name} className="tech-logo" />
-                    </div>
-                ))}
-            </div>
-        </div>
-    );
-}
