@@ -11,11 +11,11 @@ export const Home = () => {
             </p>
             <p className="mt-4">
                 With over 9 years of experience, I've built applications that took
-                3 very early stage startups from Seed to Series A and beyond.
+                3 very early stage startups from Seed stage to Series A and beyond.
             </p>
 
             <p className="mt-2">
-                I've worked with React for 8 years, and mostly Node (5 years) and Rails (3 years) on the server.
+                I've worked with React for 8 years, with Node or Rails on the backend.
             </p>
 
             <section className="my-7 lg:my-10 space-y-5">
