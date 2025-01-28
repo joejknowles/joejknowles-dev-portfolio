@@ -3,7 +3,7 @@ import { PassTime } from "./PassTime";
 
 export const Projects = () => {
     return (
-        <section className="px-10 py-10 text-center space-y-10 max-w-4xl mx-auto">
+        <section className="px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-10 text-center space-y-6 sm:space-y-8 lg:space-y-10  max-w-4xl mx-auto">
             <PassTime />
             <Project>
                 <Project.ImageSection src="/ysp.jpg" alt="YSP Explore screenshot" />
