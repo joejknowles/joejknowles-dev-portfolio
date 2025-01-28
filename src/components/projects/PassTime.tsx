@@ -22,9 +22,9 @@ export const PassTime = () => {
                 />
                 <Project.DescriptionParagraph>
                     A time management app, based on some recent research on productivity:
-                    if you decide <em>when</em> you're going to do something, you're
-                    much more likely to actually do it, than if you just add it to a 'to-do'
-                    list and forget about it.
+                    if you make a plan for <em>when</em> you're going to do things, you're
+                    more likely to spend your time how you want to, than if you just add things
+                    to an ever-growing 'to-do' list.
                 </Project.DescriptionParagraph>
                 <br />
                 <Project.DescriptionParagraph style={{ marginTop: "auto" }}>
