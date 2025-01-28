@@ -13,7 +13,7 @@ export const Home = () => {
                 </p>
                 <p className="mt-4">
                     With over 9 years of experience, I've built applications that took
-                    3 very early stage startups from Seed stage to Series A and beyond.
+                    3 early stage startups from Seed stage to Series A and beyond.
                 </p>
 
                 <p className="mt-2">
