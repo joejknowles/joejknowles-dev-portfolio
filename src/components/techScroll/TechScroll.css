@@ -22,7 +22,7 @@
 
 .tech-logo {
     height: 40px;
-    width: auto;
+    max-width: 90px;
     margin-bottom: 5px;
 }
 

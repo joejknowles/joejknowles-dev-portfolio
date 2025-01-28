@@ -21,7 +21,8 @@ export const Experiences = () => {
                         "React Native",
                         "GraphQL",
                         "Tailwind CSS",
-                        "Design Tokens"
+                        "Design Tokens",
+                        "Storybook",
                     ]} />
                     <Experience.DescriptionParagraph>
                         Working as a full-stack engineer I led a complete transformation of the development process:
