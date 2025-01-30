@@ -20,12 +20,30 @@ export const PolarExperience = () => {
                         "Prompt engineering"
                     ]}
                 />
-                <Experience.DescriptionParagraph>
-                    After joining as the second full-stack engineer, I've built much of the user facing application,
-                    taking us from seed stage through two rounds of series A funding totalling $24 million raised.
-                    Work includes building an AI data report generator powered by ChatGPT and a billing system
-                    that handles over $3M in ARR.
-                </Experience.DescriptionParagraph>
+                <Experience.List>
+                    <Experience.Item>
+                        Joined as 2nd full-stack engineer
+                    </Experience.Item>
+                    <Experience.Item>
+                        Built user facing application taking us from seed stage through
+                        series A funding totalling $18 million
+                    </Experience.Item>
+                    <Experience.Item>
+                        Built the onboarding flow and billing system handling that
+                        handled an increase in ARR from $100k to $3M in under 3 years
+                    </Experience.Item>
+                    <Experience.Item>
+                        Built an AI data report generator powered by ChatGPT
+                    </Experience.Item>
+                    <Experience.Item>
+                        Directly supported customers, leading to best-in-class{" "}
+                        <a
+                            className="text-blue-500 hover:underline"
+                            href="https://apps.shopify.com/polar-analytics/reviews">
+                            app ratings
+                        </a>
+                    </Experience.Item>
+                </Experience.List>
             </Experience.MainSection>
         </Experience>
     );

@@ -49,6 +49,26 @@ Experience.DescriptionParagraph = ({
     );
 }
 
+Experience.List = ({
+    children
+}: {
+    children: React.ReactNode
+}) => {
+    return (
+        <ul className="mt-2 list-disc ml-3">{children}</ul>
+    );
+}
+
+Experience.Item = ({
+    children
+}: {
+    children: React.ReactNode
+}) => {
+    return (
+        <li className="">{children}</li>
+    );
+}
+
 Experience.ToolsList = ({ tools }: { tools: string[] }) => {
     return (
         <p className="mt-1 text-gray-500 italic">{tools.join(", ")}</p>
