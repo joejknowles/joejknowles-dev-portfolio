@@ -29,7 +29,7 @@ export const PolarExperience = () => {
                         series A funding totalling $18 million
                     </Experience.Item>
                     <Experience.Item>
-                        Built the onboarding flow and billing system handling that
+                        Built the onboarding flow and billing system that
                         handled an increase in ARR from $100k to $3M in under 3 years
                     </Experience.Item>
                     <Experience.Item>
