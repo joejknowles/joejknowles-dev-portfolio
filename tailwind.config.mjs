@@ -6,7 +6,22 @@ export default {
 			screens: {
 				'xs': '340px',
 				'2xs': '290px',
-			  },
+			},
+			keyframes: {
+				bounce: {
+					'0%, 100%': {
+						transform: 'translateY(0)',
+						animationTimingFunction: 'linear',
+					},
+					'50%': {
+						transform: 'translateY(-15%)',
+						animationTimingFunction: 'linear',
+					},
+				},
+			},
+			animation: {
+				bounce: 'bounce 0.5s infinite',
+			},
 		},
 	},
 	plugins: [],

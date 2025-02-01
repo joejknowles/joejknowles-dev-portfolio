@@ -2,12 +2,13 @@ import { PolarExperience } from "./cv/PolarExperience";
 import { PassTime } from "./projects/PassTime";
 import { ContactInfo } from "./ContactInfo";
 import { TechScroll } from "./techScroll/TechScroll";
+import { Name } from "./Name";
 
 export const Home = () => {
     return (
         <>
             <div className="py-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h1 className="text-center text-4xl font-bold mb-2">Joe Knowles</h1>
+                <Name />
                 <p className="text-center text-gray-500">
                     Full-stack React expert, based in Leeds (UK)
                 </p>
