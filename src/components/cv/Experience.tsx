@@ -114,12 +114,12 @@ Experience.Location = ({ children }: { children: React.ReactNode }) => {
 
 Experience.Date = ({ children }: { children: React.ReactNode }) => {
     return (
-        <span className="text-gray-500 whitespace-nowrap">{children}</span>
+        <span className="text-base xs:text-xl text-gray-500 whitespace-nowrap">{children}</span>
     );
 }
 
 Experience.JobTitle = ({ children }: { children: React.ReactNode }) => {
     return (
-        <span className="text-gray-500 italic whitespace-nowrap">{children}</span>
+        <span className="text-base xs:text-xl text-gray-500 italic whitespace-nowrap">{children}</span>
     );
 }
