@@ -5,7 +5,7 @@ interface AppBarProps {
 export const AppBar = ({ currentPath }: AppBarProps) => {
     const getLinkClass = (path: string, options?: { exact: boolean }) => {
         const isActive = options?.exact ? currentPath === path : currentPath.startsWith(path);
-        return isActive ? "relative text-black font-bold flex items-center justify-center h-full px-1 xs:px-2 sm:px-4 text-sm xs:text-base sm:text-base after:content-[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:h-1 after:bg-gradient-to-r after:from-blue-400 after:to-purple-400 after:rounded-tl-[4px] after:rounded-tr-[4px] before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-white rounded-sm" : "text-gray-500 hover:text-gray-700 flex items-center justify-center h-full px-1 xs:px-2 sm:px-4 text-xs 2xs:text-sm before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-white rounded-sm";
+        return isActive ? "relative text-black font-bold flex items-center justify-center h-full px-1 xs:px-2 sm:px-4 text-sm xs:text-base sm:text-base after:content-[''] after:absolute after:bottom-[-1px] after:left-0 after:right-0 after:h-1 after:bg-gradient-to-r after:from-blue-400 after:to-purple-400 after:rounded-tl-[4px] after:rounded-tr-[4px] before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-white rounded-sm" : "text-gray-500 hover:text-gray-700 flex items-center justify-center h-full px-1 xs:px-2 sm:px-4 text-xs 2xs:text-sm before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-white rounded-sm";
     };
 
     return (
