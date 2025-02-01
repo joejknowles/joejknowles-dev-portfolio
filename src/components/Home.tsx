@@ -41,6 +41,7 @@ export const Home = () => {
                     </div>
                 </section>
                 <footer className="mt-10">
+                    <h2 className="text-3xl font-bold">Contact</h2>
                     <ContactInfo />
                 </footer>
             </div>
