@@ -98,15 +98,15 @@ export const Projects = () => {
                     </Project.DescriptionParagraph>
                     <br />
                     <Project.DescriptionParagraph style={{ marginTop: "auto" }}>
-                        Try at: <a
-                            href="https://anventory.com"
-                            className="text-blue-500 hover:underline"
-                            target="_blank"
-                            rel="noreferrer"
+                        Try at: <span
+                            // href="https://anventory.com"
+                            className="text-gray-500 hover:underline cursor-not-allowed"
+                            // target="_blank"
+                            // rel="noreferrer"
                         >
                             anventory.com
-                        </a><br />
-
+                        </span>
+                        <br />
                         <div className="text-gray-400 text-sm max-w-xs">(sign up currently disabled. Contact me at <a href="mailto:joejknowles@gmail.com">
                             joejknowles@gmail.com
                         </a> to join the waitlist)</div>
