@@ -5,13 +5,13 @@ interface AppBarProps {
 export const AppBar = ({ currentPath }: AppBarProps) => {
     const getLinkClass = (path: string, options?: { exact: boolean }) => {
         const isActive = options?.exact ? currentPath === path : currentPath.startsWith(path);
-        return isActive ? "relative text-black font-bold flex items-center justify-center h-full after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-1 after:bg-gradient-to-r after:from-blue-400 after:to-purple-400 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-1 before:bg-white rounded-sm" : "text-gray-500 hover:text-gray-700 flex items-center justify-center h-full before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-1 before:bg-white rounded-sm";
+        return isActive ? "relative text-black font-bold flex items-center justify-center h-full px-1 xs:px-2 sm:px-2 md:px-4 after:content-[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:h-1 after:bg-gradient-to-r after:from-blue-400 after:to-purple-400 before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-white rounded-sm" : "text-gray-500 hover:text-gray-700 flex items-center justify-center h-full px-1 xs:px-2 sm:px-2 md:px-4 before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-white rounded-sm";
     };
 
     return (
         <div className="flex justify-center mt-0 sm:mt-0 md:mt-8">
             <nav className="bg-white text-black py-0 px-4 sm:py-0 sm:px-4 md:py-0 md:px-6 md:rounded-full shadow-md border border-gray-200 inline-block w-full md:w-auto">
-                <ul className="flex justify-center space-x-2 xs:space-x-4 sm:space-x-4 md:justify-center md:space-x-4 h-10 md:h-12">
+                <ul className="flex justify-center md:justify-center h-10 md:h-12">
                     <li className="h-full"><a href="/" className={`${getLinkClass("/", { exact: true })} text-center inline-block relative md:min-w-[60px]`}>Home</a></li>
                     <li className="h-full"><a href="/portfolio" className={`${getLinkClass("/portfolio")} text-center inline-block relative md:min-w-[80px]`}>Portfolio</a></li>
                     <li className="h-full"><a href="/cv" className={`${getLinkClass("/cv")} text-center inline-block relative md:min-w-[50px]`}>CV</a></li>
