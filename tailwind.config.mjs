@@ -15,6 +15,7 @@ export default {
 					},
 					'50%': {
 						transform: 'translateY(-15%)',
+						color: 'var(--animation-color)',
 						animationTimingFunction: 'linear',
 					},
 				},

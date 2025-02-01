@@ -1,5 +1,28 @@
+import { useEffect, useState } from "react";
+
 export const Name = () => {
     const nameArray = "Joe Knowles".split("");
+
+    useEffect(() => {
+        const root = document.documentElement;
+        let hue = 214;
+        let i = 0;
+
+        root.style.setProperty("--animation-color", `hsl(${hue}, 100%, 62%)`);
+        const interval = setInterval(() => {
+            hue = hue + 8;
+            i++;
+            if (hue > 290) {
+                hue = 214;
+            }
+            root.style.setProperty("--animation-color", `hsl(${hue}, 100%, 62%)`);
+            if (i > 20) {
+                clearInterval(interval);
+            }
+        }, 100);
+
+        return () => clearInterval(interval);
+    }, []);
 
     return (
         <h1 className="text-center text-4xl font-bold mb-2">

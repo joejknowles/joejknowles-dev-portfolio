@@ -43,3 +43,7 @@
 .tech-scroll-container:hover .tech-scroll {
     animation-play-state: paused;
 }
+
+:root {
+    --animation-color: hsl(276, 100%, 61%);
+}
