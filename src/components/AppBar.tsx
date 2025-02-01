@@ -12,11 +12,11 @@ export const AppBar = ({ currentPath }: AppBarProps) => {
         <div className="flex justify-center mt-0 xs:mt-0 sm:mt-8">
             <nav className="bg-white text-black py-0 px-4 xs:py-0 xs:px-4 sm:py-0 sm:px-6 sm:rounded-full shadow-md border border-gray-200 inline-block w-full sm:w-auto">
                 <ul className="flex justify-center sm:justify-center h-12 sm:h-12">
-                    <li className="h-full"><a href="/" className={`${getLinkClass("/", { exact: true })} text-center inline-block relative sm:min-w-[60px]`}>Home</a></li>
-                    <li className="h-full"><a href="/portfolio" className={`${getLinkClass("/portfolio")} text-center inline-block relative sm:min-w-[80px]`}>Portfolio</a></li>
-                    <li className="h-full"><a href="/cv" className={`${getLinkClass("/cv")} text-center inline-block relative sm:min-w-[50px]`}>CV</a></li>
-                    <li className="h-full"><a href="/about" className={`${getLinkClass("/about")} text-center inline-block relative sm:min-w-[60px]`}>About</a></li>
-                    <li className="h-full"><a href="/contact" className={`${getLinkClass("/contact")} text-center inline-block relative sm:min-w-[70px]`}>Contact</a></li>
+                    <li className="h-full"><a href="/" className={`${getLinkClass("/", { exact: true })} text-center inline-block relative sm:min-w-[80px]`}>Home</a></li>
+                    <li className="h-full"><a href="/portfolio" className={`${getLinkClass("/portfolio")} text-center inline-block relative sm:min-w-[100px]`}>Portfolio</a></li>
+                    <li className="h-full"><a href="/cv" className={`${getLinkClass("/cv")} text-center inline-block relative sm:min-w-[70px]`}>CV</a></li>
+                    <li className="h-full"><a href="/about" className={`${getLinkClass("/about")} text-center inline-block relative sm:min-w-[80px]`}>About</a></li>
+                    <li className="h-full"><a href="/contact" className={`${getLinkClass("/contact")} text-center inline-block relative sm:min-w-[90px]`}>Contact</a></li>
                 </ul>
             </nav>
         </div>
