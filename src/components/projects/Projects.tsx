@@ -101,8 +101,8 @@ export const Projects = () => {
                         Try at: <span
                             // href="https://anventory.com"
                             className="text-gray-500 hover:underline cursor-not-allowed"
-                            // target="_blank"
-                            // rel="noreferrer"
+                        // target="_blank"
+                        // rel="noreferrer"
                         >
                             anventory.com
                         </span>
@@ -114,6 +114,36 @@ export const Projects = () => {
                 </Project.MainSection >
                 <Project.VideoSection src="/anventory-low.mp4" />
             </Project >
+            <Project>
+                <Project.VideoSection src="/projects/predictable.mp4" />
+                <Project.MainSection>
+                    <Project.Title>Predictable</Project.Title>
+                    <Project.ToolsList tools={["React", "Styled Components", "GCP", "Cloud Functions", "Serverless", "Firebase Auth", "Firebase Realtime Database", "Firebase Hosting"]} />
+                    <Project.DescriptionParagraph>
+                        A simple, premier league match prediction game. 1 point per correct prediction, win lose or draw.
+                    </Project.DescriptionParagraph>
+                    <Project.DescriptionParagraph>
+                        Scores are updated live as games are played. Sends email reminders and leaderboard
+                        updates flexibly, adapting as matches are postponed and rescheduled.
+                    </Project.DescriptionParagraph>
+                    <Project.DescriptionParagraph>
+                        Create your own minileague to compete with friends.
+                    </Project.DescriptionParagraph>
+                    <br />
+                    <Project.DescriptionParagraph style={{ marginTop: "auto" }}>
+                        Try at: <a
+                            href="https://predictable.app"
+                            className="text-blue-500 hover:underline"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            predictable.xyz
+                        </a>
+                        <br />
+                        <div className="text-gray-400 text-sm max-w-xs">(Best to join before a new season starts)</div>
+                    </Project.DescriptionParagraph>
+                </Project.MainSection>
+            </Project>
             <Project>
                 <Project.ImageSection src="/joejknowles-site-screenshot.jpg" alt="joejknowles.com screenshot" />
                 <Project.MainSection>
