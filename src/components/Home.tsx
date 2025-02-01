@@ -29,7 +29,7 @@ export const Home = () => {
                     <PassTime />
                     <div>
                         <a href="/portfolio" className="text-blue-500 hover:underline">
-                            See 5 other projects
+                            See 8 other projects
                         </a>
                     </div>
                 </section>

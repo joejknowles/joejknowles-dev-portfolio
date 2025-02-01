@@ -88,32 +88,37 @@ export const Projects = () => {
             </Project>
             <Project>
                 <Project.MainSection>
-                    <Project.Title>Anventory</Project.Title>
-                    <Project.ToolsList tools={["React", "Styled Components", "Downshift", "Firebase Auth", "Firestore", "Firebase Hosting"]} />
+                    <Project.Title>SourceShine</Project.Title>
+                    <Project.ToolsList tools={["React", "Ruby on Rails", "Firebase Auth", "PostgresQL"]} />
                     <Project.DescriptionParagraph>
-                        A beautifully designed, bespoke shopping list app.
+                        Continuously communicate code quality, not just in Pull Requests.
                     </Project.DescriptionParagraph>
                     <Project.DescriptionParagraph>
-                        Instantly syncs between devices and users in the same home.
+                        A fast growing company needs to acknowledge technical debt, without
+                        fixing everything immediately. With SourceShine, you can record issues
+                        when you notice them, and then see them later when you're working in
+                        the relevant area.
                     </Project.DescriptionParagraph>
+
                     <br />
                     <Project.DescriptionParagraph style={{ marginTop: "auto" }}>
                         Try at: <span
-                            // href="https://anventory.com"
+                            // href="https://sourceshine.io"
                             className="text-gray-500 hover:underline cursor-not-allowed"
-                        // target="_blank"
-                        // rel="noreferrer"
                         >
-                            anventory.com
+                            sourceshine.io
                         </span>
                         <br />
-                        <div className="text-gray-400 text-sm max-w-xs">(sign up currently disabled. Contact me at <a href="mailto:joejknowles@gmail.com">
-                            joejknowles@gmail.com
-                        </a> to join the waitlist)</div>
+                        <div className="text-gray-400 text-sm max-w-xs">
+                            (sign up currently disabled. Contact me at{" "}
+                            <a href="mailto:joejknowles@gmail.com">
+                                joejknowles@gmail.com
+                            </a> to join the waitlist)
+                        </div>
                     </Project.DescriptionParagraph>
-                </Project.MainSection >
-                <Project.VideoSection src="/anventory-low.mp4" />
-            </Project >
+                </Project.MainSection>
+                <Project.ImageSection src="/projects/sourceshine.png" alt="SourceShine screenshot" />
+            </Project>
             <Project>
                 <Project.VideoSection src="/projects/predictable.mp4" />
                 <Project.MainSection>
@@ -143,6 +148,35 @@ export const Projects = () => {
                         <div className="text-gray-400 text-sm max-w-xs">(Best to join before a new season starts)</div>
                     </Project.DescriptionParagraph>
                 </Project.MainSection>
+            </Project>
+            <Project>
+                <Project.MainSection>
+                    <Project.Title>Tadash</Project.Title>
+                    <Project.ToolsList tools={["Ruby on Rails", "chartkick"]} />
+                    <Project.DescriptionParagraph>
+                        Overview of your house's temperature and humidity recorded by
+                        Tado's smart home system.
+                    </Project.DescriptionParagraph>
+                    <Project.DescriptionParagraph>
+                        Tado's app only lets you see one day at a time. I was trying to
+                        investigate some damp issues in my house, and needed a better
+                        overview of the data, so I built it myself, and open sourced the code.
+                    </Project.DescriptionParagraph>
+                    <br />
+                    <Project.DescriptionParagraph style={{ marginTop: "auto" }}>
+                        Codebase: <a
+                            href="https://github.com/joejknowles/tadash"
+                            className="text-blue-500 hover:underline"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            GitHub
+                        </a>
+                        <br />
+                        <div className="text-gray-400 text-sm max-w-xs">(An open source dashboard, for self-hosting.)</div>
+                    </Project.DescriptionParagraph>
+                </Project.MainSection>
+                <Project.ImageSection src="/projects/tadash.png" alt="Tadash screenshot" />
             </Project>
             <Project>
                 <Project.ImageSection src="/joejknowles-site-screenshot.jpg" alt="joejknowles.com screenshot" />
@@ -175,6 +209,35 @@ export const Projects = () => {
                     </Project.DescriptionParagraph>
                 </Project.MainSection>
             </Project>
+
+            <Project>
+                <Project.MainSection>
+                    <Project.Title>Anventory</Project.Title>
+                    <Project.ToolsList tools={["React", "Styled Components", "Downshift", "Firebase Auth", "Firestore", "Firebase Hosting"]} />
+                    <Project.DescriptionParagraph>
+                        A beautifully designed, bespoke shopping list app.
+                    </Project.DescriptionParagraph>
+                    <Project.DescriptionParagraph>
+                        Instantly syncs between devices and users in the same home.
+                    </Project.DescriptionParagraph>
+                    <br />
+                    <Project.DescriptionParagraph style={{ marginTop: "auto" }}>
+                        Try at: <span
+                            // href="https://anventory.com"
+                            className="text-gray-500 hover:underline cursor-not-allowed"
+                        // target="_blank"
+                        // rel="noreferrer"
+                        >
+                            anventory.com
+                        </span>
+                        <br />
+                        <div className="text-gray-400 text-sm max-w-xs">(sign up currently disabled. Contact me at <a href="mailto:joejknowles@gmail.com">
+                            joejknowles@gmail.com
+                        </a> to join the waitlist)</div>
+                    </Project.DescriptionParagraph>
+                </Project.MainSection >
+                <Project.VideoSection src="/anventory-low.mp4" />
+            </Project >
         </section >
     );
 };
