@@ -70,7 +70,7 @@ const isProduction = import.meta.env.MODE === 'production';
 			</>
 		)}
 	</head>
-	<body class="relative">
+	<body>
 		<AppBar currentPath={currentPath} />
 		<div class="cv-download-wrapper hidden sm:block">
 			<CvDownloadButton />
@@ -87,7 +87,7 @@ const isProduction = import.meta.env.MODE === 'production';
 		height: 100%;
 	}
 	.cv-download-wrapper {
-		position: fixed;
+		position: absolute;
 		top: 28px;
 		right: 28px;
 	}
