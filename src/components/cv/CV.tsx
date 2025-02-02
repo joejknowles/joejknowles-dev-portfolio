@@ -1,10 +1,16 @@
+import CvDownloadButton from "../CvDownloadButton";
 import { Experience } from "./Experience";
 import { Experiences } from "./Experiences";
 
 const CV = () => {
     return (
-        <div className="px-1 xs:px4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-10 space-y-6 sm:space-y-8 lg:space-y-10  max-w-4xl mx-auto">
-            <h1 className="text-4xl font-bold mb-[-12px]">Experience</h1>
+        <div className="px-1 xs:px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-10 space-y-6 sm:space-y-8 lg:space-y-10 max-w-4xl mx-auto">
+            <div className="mb-[-20px] sm:mb-[-12px] flex gap-4">
+                <h1 className="text-4xl font-bold">Experience</h1>
+                <div className="block sm:hidden">
+                    <CvDownloadButton />
+                </div>
+            </div>
             <Experiences />
             <h1 className="text-4xl font-bold mb-[-12px]" style={{ marginBottom: -12 }}>Education</h1>
 
