@@ -3,7 +3,7 @@ const CvDownloadButton = () => {
     return (
         <a
             href="/cv.pdf"
-            className="bg-white text-sm text-gray-500 p-2 rounded flex flex-col items-center sm:flex"
+            className="bg-white hover:bg-gray-100 active:bg-blue-100 text-sm text-gray-500 p-2 rounded flex flex-col items-center sm:flex"
             download={`Joe Knowles Fullstack React CV ${monthAndYearFormatted}.pdf`}
         >
             <img src="/logos/pdf.svg" alt="PDF" className="w-6 h-6" />
