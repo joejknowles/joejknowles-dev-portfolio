@@ -4,9 +4,9 @@ import { Experiences } from "./Experiences";
 const CV = () => {
     return (
         <div className="px-1 xs:px4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-10 space-y-6 sm:space-y-8 lg:space-y-10  max-w-4xl mx-auto">
-            <h1 className="text-4xl font-bold mb-[-20px]">Experience</h1>
+            <h1 className="text-4xl font-bold mb-[-12px]">Experience</h1>
             <Experiences />
-            <h1 className="text-4xl font-bold mb-[-20px]" style={{ marginBottom: -20 }}>Education</h1>
+            <h1 className="text-4xl font-bold mb-[-12px]" style={{ marginBottom: -12 }}>Education</h1>
 
             <Experience>
                 <Experience.ImageSection src="/education/makers.jpg" alt="Makers Students learning" />
