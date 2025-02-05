@@ -16,7 +16,7 @@ export const Home = () => {
                 </p>
 
                 <p className="mt-2">
-                    I've worked with React for 8 years, with Node or Rails on the backend.
+                    Looking for full-stack roles using React, with Node or Rails on the backend.
                 </p>
             </div>
 
