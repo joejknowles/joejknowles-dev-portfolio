@@ -16,7 +16,7 @@ export const Home = () => {
                 </p>
 
                 <p className="mt-2">
-                    Looking for full-stack roles using React, with Node or Rails on the backend.
+                    Looking for full-stack roles using React, with Node or Rails.
                 </p>
             </div>
 
