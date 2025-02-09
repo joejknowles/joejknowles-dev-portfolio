@@ -13,7 +13,7 @@ export const PassTime = () => {
                         "PostgresQL",
                         "EC2",
                         "TypeScript",
-                        "Material-ui",
+                        "Material UI",
                         "Prisma",
                         "GraphQL",
                         "Apollo",

@@ -237,7 +237,38 @@ export const Projects = () => {
                     </Project.DescriptionParagraph>
                 </Project.MainSection >
                 <Project.VideoSection src="/anventory-low.mp4" />
-            </Project >
-        </section >
+            </Project>
+
+            <Project>
+                <Project.ImageSection src="/projects/estimate-vote.jpg" alt="Estimate Vote screenshot" />
+                <Project.MainSection>
+                    <Project.Title>Estimate Vote</Project.Title>
+                    <Project.ToolsList tools={["React", "Styled Components", "Firebase Auth", "Firestore", "Firebase Hosting", "Material UI"]} />
+                    <Project.DescriptionParagraph>
+                        A simple, real-time, planning poker app for Agile Estimations
+                    </Project.DescriptionParagraph>
+                    <Project.DescriptionParagraph>
+                        Great for remote teams to estimate the size of tasks.
+                        I built it in my spare time to improve the process at Zen Educate.
+                    </Project.DescriptionParagraph>
+                    <Project.DescriptionParagraph>
+                        Automatically creates a new room when you visit the site, or
+                        type in a custom path right into the URL to create a room that's
+                        you can keep coming back to, and is easy to share with your team.
+                    </Project.DescriptionParagraph>
+                    <br />
+                    <Project.DescriptionParagraph style={{ marginTop: "auto" }}>
+                        Try at: <a
+                            href="https://estimate-vote.web.app/"
+                            className="text-blue-500 hover:underline"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            estimate-vote.web.app
+                        </a>
+                    </Project.DescriptionParagraph>
+                </Project.MainSection>
+            </Project>
+        </section>
     );
 };
